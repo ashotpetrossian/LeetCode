@@ -1,0 +1,13 @@
+# Ignore VS Code C++ configuration
+.vscode/c_cpp_properties.json
+
+# Optional: ignore the whole VS Code settings folder
+# .vscode/
+
+# Ignore compiled files
+*.exe
+*.obj
+*.out
+
+# Ignore build folders if you have any
+build/
