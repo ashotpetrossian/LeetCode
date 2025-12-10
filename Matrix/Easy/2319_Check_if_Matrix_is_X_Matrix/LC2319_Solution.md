@@ -9,15 +9,22 @@ Given a 2D integer array `grid` of size `n x n` representing a square matrix, re
 
 ### Example 1:
 
-**Input:** `grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]`  
-**Output:** `true`  
-**Explanation:** The diagonal elements are non-zero. All other elements are 0. Hence, `grid` is an X-Matrix.
+```
+Input: grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]
+Output: true
+Explanation: The diagonal elements are non-zero. All other elements are 0. Hence, grid is an X-Matrix.
+```
 
 ### Example 2:
 
 **Input:** `grid = [[5,7,0],[0,3,1],[0,5,0]]`  
 **Output:** `false`  
 **Explanation:** The element at `grid[0][1]` is 7, which is not on a diagonal and is non-zero. Hence, `grid` is not an X-Matrix.
+```
+Input: grid = [,,]
+Output: false
+Explanation: The element at grid is 7, which is not on a diagonal and is non-zero. Hence, grid is not an X-Matrix.
+```
 
 ### Constraints:
 
